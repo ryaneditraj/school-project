@@ -1,0 +1,115 @@
+============================================================
+   KADAL KANAKKU - Fish Catch, Auction & Sea-Safety Manager
+        Manavalakurichi Fish Landing Centre
+============================================================
+
+========= MAIN MENU =========
+1. Boats & Fishermen
+2. Trips & Sea Safety
+3. Catch & Auction
+4. Buyers
+5. Reports
+0. Exit
+Enter choice: 2
+
+--- TRIPS & SEA SAFETY ---
+1.Start trip  2.Mark returned  3.Boats at sea  4.All trips  0.Back
+Choice: 3
++------+------------+------------+------------+------+----------+
+| Trip | Boat       | Type       | Left On    | Crew | Weather  |
++------+------------+------------+------------+------+----------+
+| 14   | Thangam    | Kattumaram | 2026-10-25 | 2    | MODERATE |
+| 15   | Holy Cross | Trawler    | 2026-10-25 | 9    | MODERATE |
++------+------------+------------+------------+------+----------+
+   2 row(s)
+  >> Total people at sea now: 11
+
+--- TRIPS & SEA SAFETY ---
+1.Start trip  2.Mark returned  3.Boats at sea  4.All trips  0.Back
+Choice: 1
+Boat ID: 106
+Weather ('CALM', 'MODERATE', 'ROUGH'): ROUGH
+  *** SAFETY ALERT: Rough sea. A Kattumaram is NOT allowed to go out. Trip not logged. ***
+
+--- TRIPS & SEA SAFETY ---
+1.Start trip  2.Mark returned  3.Boats at sea  4.All trips  0.Back
+Choice: 1
+Boat ID: 113
+Weather ('CALM', 'MODERATE', 'ROUGH'): storm
+  ! Choose one of ('CALM', 'MODERATE', 'ROUGH')
+Weather ('CALM', 'MODERATE', 'ROUGH'): ROUGH
+Crew count: 6
+Trip date (YYYY-MM-DD, Enter = today): 2026-10-26
+  Trip 16 logged. Sea Breeze is now AT SEA.
+
+--- TRIPS & SEA SAFETY ---
+1.Start trip  2.Mark returned  3.Boats at sea  4.All trips  0.Back
+Choice: 1
+Boat ID: 112
+  ! Thangam is already at sea.
+
+--- TRIPS & SEA SAFETY ---
+1.Start trip  2.Mark returned  3.Boats at sea  4.All trips  0.Back
+Choice: 2
+Trip ID that returned: 14
+  Trip 14 marked RETURNED. Welcome back!
+
+--- TRIPS & SEA SAFETY ---
+1.Start trip  2.Mark returned  3.Boats at sea  4.All trips  0.Back
+Choice: 3
++------+------------+---------+------------+------+----------+
+| Trip | Boat       | Type    | Left On    | Crew | Weather  |
++------+------------+---------+------------+------+----------+
+| 15   | Holy Cross | Trawler | 2026-10-25 | 9    | MODERATE |
+| 16   | Sea Breeze | Fibre   | 2026-10-26 | 6    | ROUGH    |
++------+------------+---------+------------+------+----------+
+   2 row(s)
+  >> Total people at sea now: 15
+
+--- TRIPS & SEA SAFETY ---
+1.Start trip  2.Mark returned  3.Boats at sea  4.All trips  0.Back
+Choice: 16
+  ! Number must be between 0 and 4
+Choice: 2
+Trip ID that returned: 99
+  ! Trip not found or already returned.
+
+--- TRIPS & SEA SAFETY ---
+1.Start trip  2.Mark returned  3.Boats at sea  4.All trips  0.Back
+Choice: 4
++------+------------+---------------+------+----------+----------+
+| Trip | Date       | Boat          | Crew | Weather  | Status   |
++------+------------+---------------+------+----------+----------+
+| 16   | 2026-10-26 | Sea Breeze    | 6    | ROUGH    | AT SEA   |
+| 15   | 2026-10-25 | Holy Cross    | 9    | MODERATE | AT SEA   |
+| 14   | 2026-10-25 | Thangam       | 2    | MODERATE | RETURNED |
+| 13   | 2026-10-24 | Sea Star      | 8    | CALM     | RETURNED |
+| 12   | 2026-10-24 | St Antony     | 4    | CALM     | RETURNED |
+| 11   | 2026-10-23 | Little Flower | 3    | CALM     | RETURNED |
+| 10   | 2026-10-23 | Our Lady      | 8    | MODERATE | RETURNED |
+| 9    | 2026-10-22 | Muthu Kadal   | 4    | CALM     | RETURNED |
+| 8    | 2026-10-22 | Meenavan      | 3    | CALM     | RETURNED |
+| 7    | 2026-10-22 | Alaigal       | 2    | CALM     | RETURNED |
+| 6    | 2026-10-21 | Holy Cross    | 9    | MODERATE | RETURNED |
+| 5    | 2026-10-21 | Velankanni    | 4    | MODERATE | RETURNED |
+| 4    | 2026-10-21 | Arokia Matha  | 2    | CALM     | RETURNED |
+| 3    | 2026-10-20 | Sea Star      | 8    | MODERATE | RETURNED |
+| 2    | 2026-10-20 | Kadal Rani    | 3    | CALM     | RETURNED |
+| 1    | 2026-10-20 | St Antony     | 4    | CALM     | RETURNED |
++------+------------+---------------+------+----------+----------+
+   16 row(s)
+
+--- TRIPS & SEA SAFETY ---
+1.Start trip  2.Mark returned  3.Boats at sea  4.All trips  0.Back
+Choice: 0
+
+========= MAIN MENU =========
+1. Boats & Fishermen
+2. Trips & Sea Safety
+3. Catch & Auction
+4. Buyers
+5. Reports
+0. Exit
+Enter choice: 0
+
+Connection closed. Nanri! (Thank you)

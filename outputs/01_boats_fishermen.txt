@@ -1,0 +1,171 @@
+============================================================
+   KADAL KANAKKU - Fish Catch, Auction & Sea-Safety Manager
+        Manavalakurichi Fish Landing Centre
+============================================================
+
+========= MAIN MENU =========
+1. Boats & Fishermen
+2. Trips & Sea Safety
+3. Catch & Auction
+4. Buyers
+5. Reports
+0. Exit
+Enter choice: 1
+
+--- BOATS & FISHERMEN ---
+1.Add boat  2.View boats  3.Add fisherman  4.View crew (join)
+5.Search fisherman  6.Change boat owner  7.Delete fisherman  0.Back
+Choice: 2
++-----+---------------+---------------+------------+---------------+---------+
+| ID  | Boat          | Reg No        | Type       | Owner         | Cap(kg) |
++-----+---------------+---------------+------------+---------------+---------+
+| 101 | St Antony     | TN-15-MO-1021 | Fibre      | Arul Raj      | 800     |
+| 102 | Kadal Rani    | TN-15-MO-1187 | Vallam     | Selvin        | 600     |
+| 103 | Arokia Matha  | TN-15-MO-0954 | Kattumaram | Jesudasan     | 250     |
+| 104 | Sea Star      | TN-15-MO-1342 | Trawler    | Benjamin      | 3000    |
+| 105 | Velankanni    | TN-15-MO-1209 | Fibre      | Michael Raj   | 900     |
+| 106 | Alaigal       | TN-15-MO-0877 | Kattumaram | Antony Dhas   | 200     |
+| 107 | Holy Cross    | TN-15-MO-1455 | Trawler    | Xavier        | 3500    |
+| 108 | Meenavan      | TN-15-MO-1033 | Vallam     | Robert        | 650     |
+| 109 | Muthu Kadal   | TN-15-MO-1290 | Fibre      | Gnana Prakash | 850     |
+| 110 | Little Flower | TN-15-MO-0998 | Vallam     | Stephen       | 700     |
+| 111 | Our Lady      | TN-15-MO-1501 | Trawler    | Peter Raj     | 3200    |
+| 112 | Thangam       | TN-15-MO-1120 | Kattumaram | Sahaya Raj    | 220     |
++-----+---------------+---------------+------------+---------------+---------+
+   12 row(s)
+
+--- BOATS & FISHERMEN ---
+1.Add boat  2.View boats  3.Add fisherman  4.View crew (join)
+5.Search fisherman  6.Change boat owner  7.Delete fisherman  0.Back
+Choice: 4
++----+---------------+------------+-----------------+---------------+
+| ID | Name          | Phone      | Village         | Boat          |
++----+---------------+------------+-----------------+---------------+
+| 6  | Antony Dhas   | 9443100016 | Muttom          | Alaigal       |
+| 3  | Jesudasan     | 9443100013 | Kadiapattinam   | Arokia Matha  |
+| 15 | Ravi          | 9443100025 | Kadiapattinam   | Holy Cross    |
+| 7  | Xavier        | 9443100017 | Colachel        | Holy Cross    |
+| 2  | Selvin        | 9443100012 | Manavalakurichi | Kadal Rani    |
+| 10 | Stephen       | 9443100020 | Manavalakurichi | Little Flower |
+| 8  | Robert        | 9443100018 | Manavalakurichi | Meenavan      |
+| 9  | Gnana Prakash | 9443100019 | Kadiapattinam   | Muthu Kadal   |
+| 11 | Peter Raj     | 9443100021 | Muttom          | Our Lady      |
+| 4  | Benjamin      | 9443100014 | Colachel        | Sea Star      |
+| 14 | Vincent       | 9443100024 | Colachel        | Sea Star      |
+| 1  | Arul Raj      | 9443100011 | Manavalakurichi | St Antony     |
+| 13 | John Bosco    | 9443100023 | Manavalakurichi | St Antony     |
+| 12 | Sahaya Raj    | 9443100022 | Manavalakurichi | Thangam       |
+| 5  | Michael Raj   | 9443100015 | Manavalakurichi | Velankanni    |
++----+---------------+------------+-----------------+---------------+
+   15 row(s)
+
+--- BOATS & FISHERMEN ---
+1.Add boat  2.View boats  3.Add fisherman  4.View crew (join)
+5.Search fisherman  6.Change boat owner  7.Delete fisherman  0.Back
+Choice: 5
+Enter part of name / village: bosco
++----+------------+-----------------+-----------+
+| ID | Name       | Village         | Boat      |
++----+------------+-----------------+-----------+
+| 13 | John Bosco | Manavalakurichi | St Antony |
++----+------------+-----------------+-----------+
+   1 row(s)
+
+--- BOATS & FISHERMEN ---
+1.Add boat  2.View boats  3.Add fisherman  4.View crew (join)
+5.Search fisherman  6.Change boat owner  7.Delete fisherman  0.Back
+Choice: 1
+Boat ID      : 113
+Boat name    : Sea Breeze
+Reg. number  : tn-15-mo-1600
+Boat type    ('KATTUMARAM', 'VALLAM', 'FIBRE', 'TRAWLER'): abc
+  ! Choose one of ('KATTUMARAM', 'VALLAM', 'FIBRE', 'TRAWLER')
+Boat type    ('KATTUMARAM', 'VALLAM', 'FIBRE', 'TRAWLER'): fibre
+Owner name   : Antony Raj
+Capacity (kg): 900
+  Boat added successfully.
+
+--- BOATS & FISHERMEN ---
+1.Add boat  2.View boats  3.Add fisherman  4.View crew (join)
+5.Search fisherman  6.Change boat owner  7.Delete fisherman  0.Back
+Choice: 1
+Boat ID      : 101
+  ! Boat ID already exists.
+
+--- BOATS & FISHERMEN ---
+1.Add boat  2.View boats  3.Add fisherman  4.View crew (join)
+5.Search fisherman  6.Change boat owner  7.Delete fisherman  0.Back
+Choice: 6
+Boat ID: 103
+New owner name: Jesudasan Jr
+  Owner updated.
+
+--- BOATS & FISHERMEN ---
+1.Add boat  2.View boats  3.Add fisherman  4.View crew (join)
+5.Search fisherman  6.Change boat owner  7.Delete fisherman  0.Back
+Choice: 3
+Fisherman ID : 16
+Name         : Leo
+Phone (10 digits): 98765
+  ! Phone must be exactly 10 digits.
+
+--- BOATS & FISHERMEN ---
+1.Add boat  2.View boats  3.Add fisherman  4.View crew (join)
+5.Search fisherman  6.Change boat owner  7.Delete fisherman  0.Back
+Choice: 3
+Fisherman ID : 17
+Name         : Leo Raj
+Phone (10 digits): 9876543210
+Village      : Manavalakurichi
+Works on Boat ID: 113
+  Fisherman added successfully.
+
+--- BOATS & FISHERMEN ---
+1.Add boat  2.View boats  3.Add fisherman  4.View crew (join)
+5.Search fisherman  6.Change boat owner  7.Delete fisherman  0.Back
+Choice: 4
++----+---------------+------------+-----------------+---------------+
+| ID | Name          | Phone      | Village         | Boat          |
++----+---------------+------------+-----------------+---------------+
+| 6  | Antony Dhas   | 9443100016 | Muttom          | Alaigal       |
+| 3  | Jesudasan     | 9443100013 | Kadiapattinam   | Arokia Matha  |
+| 15 | Ravi          | 9443100025 | Kadiapattinam   | Holy Cross    |
+| 7  | Xavier        | 9443100017 | Colachel        | Holy Cross    |
+| 2  | Selvin        | 9443100012 | Manavalakurichi | Kadal Rani    |
+| 10 | Stephen       | 9443100020 | Manavalakurichi | Little Flower |
+| 8  | Robert        | 9443100018 | Manavalakurichi | Meenavan      |
+| 9  | Gnana Prakash | 9443100019 | Kadiapattinam   | Muthu Kadal   |
+| 11 | Peter Raj     | 9443100021 | Muttom          | Our Lady      |
+| 17 | Leo Raj       | 9876543210 | Manavalakurichi | Sea Breeze    |
+| 4  | Benjamin      | 9443100014 | Colachel        | Sea Star      |
+| 14 | Vincent       | 9443100024 | Colachel        | Sea Star      |
+| 1  | Arul Raj      | 9443100011 | Manavalakurichi | St Antony     |
+| 13 | John Bosco    | 9443100023 | Manavalakurichi | St Antony     |
+| 12 | Sahaya Raj    | 9443100022 | Manavalakurichi | Thangam       |
+| 5  | Michael Raj   | 9443100015 | Manavalakurichi | Velankanni    |
++----+---------------+------------+-----------------+---------------+
+   16 row(s)
+
+--- BOATS & FISHERMEN ---
+1.Add boat  2.View boats  3.Add fisherman  4.View crew (join)
+5.Search fisherman  6.Change boat owner  7.Delete fisherman  0.Back
+Choice: 7
+Fisherman ID to delete: 17
+  Are you sure? (y/n): y
+  Deleted.
+
+--- BOATS & FISHERMEN ---
+1.Add boat  2.View boats  3.Add fisherman  4.View crew (join)
+5.Search fisherman  6.Change boat owner  7.Delete fisherman  0.Back
+Choice: 0
+
+========= MAIN MENU =========
+1. Boats & Fishermen
+2. Trips & Sea Safety
+3. Catch & Auction
+4. Buyers
+5. Reports
+0. Exit
+Enter choice: 0
+
+Connection closed. Nanri! (Thank you)

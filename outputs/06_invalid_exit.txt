@@ -1,0 +1,19 @@
+============================================================
+   KADAL KANAKKU - Fish Catch, Auction & Sea-Safety Manager
+        Manavalakurichi Fish Landing Centre
+============================================================
+
+========= MAIN MENU =========
+1. Boats & Fishermen
+2. Trips & Sea Safety
+3. Catch & Auction
+4. Buyers
+5. Reports
+0. Exit
+Enter choice: 9
+  ! Number must be between 0 and 5
+Enter choice: abc
+  ! Please enter a whole number.
+Enter choice: 0
+
+Connection closed. Nanri! (Thank you)

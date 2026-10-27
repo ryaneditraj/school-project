@@ -1,0 +1,183 @@
+============================================================
+   KADAL KANAKKU - Fish Catch, Auction & Sea-Safety Manager
+        Manavalakurichi Fish Landing Centre
+============================================================
+
+========= MAIN MENU =========
+1. Boats & Fishermen
+2. Trips & Sea Safety
+3. Catch & Auction
+4. Buyers
+5. Reports
+0. Exit
+Enter choice: 3
+
+--- CATCH & AUCTION ---
+1.Record catch  2.Unsold catches  3.Auction a catch
+4.View all sales  5.Delete catch  0.Back
+Choice: 1
+Trip ID: 16
+  ! Boat has not returned yet. Mark the trip returned first.
+
+--- CATCH & AUCTION ---
+1.Record catch  2.Unsold catches  3.Auction a catch
+4.View all sales  5.Delete catch  0.Back
+Choice: 1
+Trip ID: 14
+Species (e.g. Tuna): Prawn
+Weight in kg: 120
+  Catch 21 recorded. Waiting for auction.
+
+--- CATCH & AUCTION ---
+1.Record catch  2.Unsold catches  3.Auction a catch
+4.View all sales  5.Delete catch  0.Back
+Choice: lobster
+  ! Please enter a whole number.
+Choice: -5
+  ! Number must be between 0 and 5
+Choice: 2
++-------+----------+------------+---------+-------+
+| Catch | Boat     | Date       | Species | Kg    |
++-------+----------+------------+---------+-------+
+| 19    | Sea Star | 2026-10-24 | Squid   | 320.0 |
+| 20    | Sea Star | 2026-10-24 | Anchovy | 500.0 |
+| 21    | Thangam  | 2026-10-25 | Prawn   | 120.0 |
++-------+----------+------------+---------+-------+
+   3 row(s)
+
+--- CATCH & AUCTION ---
+1.Record catch  2.Unsold catches  3.Auction a catch
+4.View all sales  5.Delete catch  0.Back
+Choice: 3
++-------+----------+------------+---------+-------+
+| Catch | Boat     | Date       | Species | Kg    |
++-------+----------+------------+---------+-------+
+| 19    | Sea Star | 2026-10-24 | Squid   | 320.0 |
+| 20    | Sea Star | 2026-10-24 | Anchovy | 500.0 |
+| 21    | Thangam  | 2026-10-25 | Prawn   | 120.0 |
++-------+----------+------------+---------+-------+
+   3 row(s)
+Catch ID to auction: 19
+Winning Buyer ID: 3
+Final bid rate (Rs per kg): 280
+  SOLD! 320.0 kg of Squid @ Rs 280.0 = Rs 89600.0
+
+--- CATCH & AUCTION ---
+1.Record catch  2.Unsold catches  3.Auction a catch
+4.View all sales  5.Delete catch  0.Back
+Choice: 3
++-------+----------+------------+---------+-------+
+| Catch | Boat     | Date       | Species | Kg    |
++-------+----------+------------+---------+-------+
+| 20    | Sea Star | 2026-10-24 | Anchovy | 500.0 |
+| 21    | Thangam  | 2026-10-25 | Prawn   | 120.0 |
++-------+----------+------------+---------+-------+
+   2 row(s)
+Catch ID to auction: 20
+Winning Buyer ID: 99
+  ! No such buyer.
+
+--- CATCH & AUCTION ---
+1.Record catch  2.Unsold catches  3.Auction a catch
+4.View all sales  5.Delete catch  0.Back
+Choice: 3
++-------+----------+------------+---------+-------+
+| Catch | Boat     | Date       | Species | Kg    |
++-------+----------+------------+---------+-------+
+| 20    | Sea Star | 2026-10-24 | Anchovy | 500.0 |
+| 21    | Thangam  | 2026-10-25 | Prawn   | 120.0 |
++-------+----------+------------+---------+-------+
+   2 row(s)
+Catch ID to auction: 20
+Winning Buyer ID: 9
+Final bid rate (Rs per kg): 95
+  SOLD! 500.0 kg of Anchovy @ Rs 95.0 = Rs 47500.0
+
+--- CATCH & AUCTION ---
+1.Record catch  2.Unsold catches  3.Auction a catch
+4.View all sales  5.Delete catch  0.Back
+Choice: 3
++-------+---------+------------+---------+-------+
+| Catch | Boat    | Date       | Species | Kg    |
++-------+---------+------------+---------+-------+
+| 21    | Thangam | 2026-10-25 | Prawn   | 120.0 |
++-------+---------+------------+---------+-------+
+   1 row(s)
+Catch ID to auction: 21
+Winning Buyer ID: 3
+Final bid rate (Rs per kg): abc
+  ! Please enter a number (e.g. 150 or 72.5).
+Final bid rate (Rs per kg): -10
+  ! Value must be greater than 0.
+Final bid rate (Rs per kg): 460
+  SOLD! 120.0 kg of Prawn @ Rs 460.0 = Rs 55200.0
+
+--- CATCH & AUCTION ---
+1.Record catch  2.Unsold catches  3.Auction a catch
+4.View all sales  5.Delete catch  0.Back
+Choice: 1
+Trip ID: 14
+Species (e.g. Tuna): Crab
+Weight in kg: 12
+  Catch 22 recorded. Waiting for auction.
+
+--- CATCH & AUCTION ---
+1.Record catch  2.Unsold catches  3.Auction a catch
+4.View all sales  5.Delete catch  0.Back
+Choice: 5
+Catch ID to delete (wrong entry): 22
+  Deleted.
+
+--- CATCH & AUCTION ---
+1.Record catch  2.Unsold catches  3.Auction a catch
+4.View all sales  5.Delete catch  0.Back
+Choice: 5
+Catch ID to delete (wrong entry): 99
+  ! Catch not found.
+
+--- CATCH & AUCTION ---
+1.Record catch  2.Unsold catches  3.Auction a catch
+4.View all sales  5.Delete catch  0.Back
+Choice: 4
++-------+------------+---------------+-----------+--------+-------+----------+-------------------------+
+| Catch | Date       | Boat          | Species   | Kg     | Rate  | Amount   | Buyer                   |
++-------+------------+---------------+-----------+--------+-------+----------+-------------------------+
+| 1     | 2026-10-20 | St Antony     | Seer Fish | 120.0  | 620.0 | 74400.0  | Kanyakumari Sea Exports |
+| 2     | 2026-10-20 | St Antony     | Mackerel  | 200.0  | 140.0 | 28000.0  | Mary Fish Traders       |
+| 3     | 2026-10-20 | Kadal Rani    | Sardine   | 350.0  | 60.0  | 21000.0  | Ocean Fresh Agency      |
+| 4     | 2026-10-20 | Sea Star      | Tuna      | 900.0  | 210.0 | 189000.0 | Kerala Marine Foods     |
+| 5     | 2026-10-20 | Sea Star      | Squid     | 300.0  | 280.0 | 84000.0  | Kanyakumari Sea Exports |
+| 6     | 2026-10-20 | Sea Star      | Prawn     | 150.0  | 450.0 | 67500.0  | Cape Seafoods           |
+| 7     | 2026-10-21 | Arokia Matha  | Anchovy   | 80.0   | 90.0  | 7200.0   | Selvi                   |
+| 8     | 2026-10-21 | Velankanni    | Seer Fish | 140.0  | 600.0 | 84000.0  | Cape Seafoods           |
+| 9     | 2026-10-21 | Velankanni    | Pomfret   | 60.0   | 520.0 | 31200.0  | Mary Fish Traders       |
+| 10    | 2026-10-21 | Holy Cross    | Tuna      | 1100.0 | 200.0 | 220000.0 | Kanyakumari Sea Exports |
+| 11    | 2026-10-21 | Holy Cross    | Squid     | 250.0  | 290.0 | 72500.0  | Kerala Marine Foods     |
+| 12    | 2026-10-22 | Alaigal       | Sardine   | 90.0   | 70.0  | 6300.0   | Jeya Fish Stall         |
+| 13    | 2026-10-22 | Meenavan      | Mackerel  | 260.0  | 150.0 | 39000.0  | Ocean Fresh Agency      |
+| 14    | 2026-10-22 | Muthu Kadal   | Prawn     | 110.0  | 470.0 | 51700.0  | Kerala Marine Foods     |
+| 15    | 2026-10-23 | Our Lady      | Tuna      | 800.0  | 205.0 | 164000.0 | Cape Seafoods           |
+| 16    | 2026-10-23 | Our Lady      | Crab      | 70.0   | 380.0 | 26600.0  | Mary Fish Traders       |
+| 17    | 2026-10-23 | Little Flower | Sardine   | 400.0  | 55.0  | 22000.0  | Raja Dry Fish           |
+| 18    | 2026-10-24 | St Antony     | Seer Fish | 100.0  | 640.0 | 64000.0  | Kanyakumari Sea Exports |
+| 19    | 2026-10-24 | Sea Star      | Squid     | 320.0  | 280.0 | 89600.0  | Selvi                   |
+| 20    | 2026-10-24 | Sea Star      | Anchovy   | 500.0  | 95.0  | 47500.0  | Raja Dry Fish           |
+| 21    | 2026-10-25 | Thangam       | Prawn     | 120.0  | 460.0 | 55200.0  | Selvi                   |
++-------+------------+---------------+-----------+--------+-------+----------+-------------------------+
+   21 row(s)
+
+--- CATCH & AUCTION ---
+1.Record catch  2.Unsold catches  3.Auction a catch
+4.View all sales  5.Delete catch  0.Back
+Choice: 0
+
+========= MAIN MENU =========
+1. Boats & Fishermen
+2. Trips & Sea Safety
+3. Catch & Auction
+4. Buyers
+5. Reports
+0. Exit
+Enter choice: 0
+
+Connection closed. Nanri! (Thank you)

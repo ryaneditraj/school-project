@@ -1,0 +1,58 @@
+mysql> DESC boats;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| boat_id     | int(11)     | NO   | PRI | NULL    |       |
+| boat_name   | varchar(30) | NO   |     | NULL    |       |
+| reg_no      | varchar(20) | NO   | UNI | NULL    |       |
+| boat_type   | varchar(15) | NO   |     | NULL    |       |
+| owner_name  | varchar(30) | NO   |     | NULL    |       |
+| capacity_kg | int(11)     | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+
+mysql> DESC fishermen;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| fisher_id | int(11)     | NO   | PRI | NULL    |       |
+| fname     | varchar(30) | NO   |     | NULL    |       |
+| phone     | char(10)    | YES  | UNI | NULL    |       |
+| village   | varchar(25) | YES  |     | NULL    |       |
+| boat_id   | int(11)     | YES  | MUL | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+
+mysql> DESC trips;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| trip_id    | int(11)     | NO   | PRI | NULL    |       |
+| boat_id    | int(11)     | NO   | MUL | NULL    |       |
+| trip_date  | date        | NO   |     | NULL    |       |
+| crew_count | int(11)     | YES  |     | NULL    |       |
+| weather    | varchar(10) | YES  |     | NULL    |       |
+| status     | varchar(10) | YES  |     | AT SEA  |       |
++------------+-------------+------+-----+---------+-------+
+
+mysql> DESC buyers;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| buyer_id | int(11)     | NO   | PRI | NULL    |       |
+| bname    | varchar(30) | NO   |     | NULL    |       |
+| btype    | varchar(15) | YES  |     | NULL    |       |
+| town     | varchar(20) | YES  |     | NULL    |       |
+| phone    | char(10)    | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+
+mysql> DESC catches;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| catch_id    | int(11)     | NO   | PRI | NULL    |       |
+| trip_id     | int(11)     | NO   | MUL | NULL    |       |
+| species     | varchar(20) | NO   |     | NULL    |       |
+| weight_kg   | float       | NO   |     | NULL    |       |
+| buyer_id    | int(11)     | YES  | MUL | NULL    |       |
+| rate_per_kg | float       | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+

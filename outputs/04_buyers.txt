@@ -1,0 +1,60 @@
+============================================================
+   KADAL KANAKKU - Fish Catch, Auction & Sea-Safety Manager
+        Manavalakurichi Fish Landing Centre
+============================================================
+
+========= MAIN MENU =========
+1. Boats & Fishermen
+2. Trips & Sea Safety
+3. Catch & Auction
+4. Buyers
+5. Reports
+0. Exit
+Enter choice: 4
+
+--- BUYERS ---
+1.Add buyer  2.View buyers  0.Back
+Choice: 1
+Buyer ID: 11
+Name: Sahaya Fisheries
+Type ('EXPORTER', 'WHOLESALER', 'VENDOR'): retailer
+  ! Choose one of ('EXPORTER', 'WHOLESALER', 'VENDOR')
+Type ('EXPORTER', 'WHOLESALER', 'VENDOR'): wholesaler
+Town: Nagercoil
+Phone: 9842200011
+  Buyer added.
+
+--- BUYERS ---
+1.Add buyer  2.View buyers  0.Back
+Choice: 2
++----+-------------------------+------------+--------------------+------------+
+| ID | Name                    | Type       | Town               | Phone      |
++----+-------------------------+------------+--------------------+------------+
+| 8  | Cape Seafoods           | Exporter   | Tuticorin          | 9842200008 |
+| 1  | Kanyakumari Sea Exports | Exporter   | Colachel           | 9842200001 |
+| 4  | Kerala Marine Foods     | Exporter   | Thiruvananthapuram | 9842200004 |
+| 5  | Jeya Fish Stall         | Vendor     | Thuckalay          | 9842200005 |
+| 7  | Lourdu Mary             | Vendor     | Kadiapattinam      | 9842200007 |
+| 10 | Pushpa                  | Vendor     | Muttom             | 9842200010 |
+| 3  | Selvi                   | Vendor     | Manavalakurichi    | 9842200003 |
+| 2  | Mary Fish Traders       | Wholesaler | Nagercoil          | 9842200002 |
+| 6  | Ocean Fresh Agency      | Wholesaler | Marthandam         | 9842200006 |
+| 9  | Raja Dry Fish           | Wholesaler | Colachel           | 9842200009 |
+| 11 | Sahaya Fisheries        | Wholesaler | Nagercoil          | 9842200011 |
++----+-------------------------+------------+--------------------+------------+
+   11 row(s)
+
+--- BUYERS ---
+1.Add buyer  2.View buyers  0.Back
+Choice: 0
+
+========= MAIN MENU =========
+1. Boats & Fishermen
+2. Trips & Sea Safety
+3. Catch & Auction
+4. Buyers
+5. Reports
+0. Exit
+Enter choice: 0
+
+Connection closed. Nanri! (Thank you)

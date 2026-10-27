@@ -1,0 +1,7 @@
+============================================================
+   KADAL KANAKKU - Fish Catch, Auction & Sea-Safety Manager
+        Manavalakurichi Fish Landing Centre
+============================================================
+Cannot connect to MySQL: Access denied for user 'root'@'localhost' (using password: YES)
+Check that MySQL is running, schema.sql is loaded and
+PASSWORD at the top of this file is correct.

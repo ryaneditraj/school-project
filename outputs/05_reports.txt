@@ -1,0 +1,149 @@
+============================================================
+   KADAL KANAKKU - Fish Catch, Auction & Sea-Safety Manager
+        Manavalakurichi Fish Landing Centre
+============================================================
+
+========= MAIN MENU =========
+1. Boats & Fishermen
+2. Trips & Sea Safety
+3. Catch & Auction
+4. Buyers
+5. Reports
+0. Exit
+Enter choice: 5
+
+--- REPORTS ---
+1.Daily revenue  2.Species-wise totals  3.Top 5 boats
+4.Buyer spending (HAVING)  5.Revenue between dates
+6.Export species report to CSV  0.Back
+Choice: 1
+Report date (YYYY-MM-DD, Enter = today): 2026-10-20
++-----------+----------+--------------+
+| Species   | Total Kg | Revenue (Rs) |
++-----------+----------+--------------+
+| Tuna      | 900.0    | 189000.0     |
+| Squid     | 300.0    | 84000.0      |
+| Seer Fish | 120.0    | 74400.0      |
+| Prawn     | 150.0    | 67500.0      |
+| Mackerel  | 200.0    | 28000.0      |
+| Sardine   | 350.0    | 21000.0      |
++-----------+----------+--------------+
+   6 row(s)
+  >> Total auction revenue on 2026-10-20 : Rs 463900.0
+
+--- REPORTS ---
+1.Daily revenue  2.Species-wise totals  3.Top 5 boats
+4.Buyer spending (HAVING)  5.Revenue between dates
+6.Export species report to CSV  0.Back
+Choice: 2
++-----------+------+----------+----------+----------+----------+
+| Species   | Lots | Total Kg | Avg Rate | Max Rate | Revenue  |
++-----------+------+----------+----------+----------+----------+
+| Tuna      | 3    | 2800.0   | 205.0    | 210.0    | 573000.0 |
+| Squid     | 3    | 870.0    | 283.33   | 290.0    | 246100.0 |
+| Seer Fish | 3    | 360.0    | 620.0    | 640.0    | 222400.0 |
+| Prawn     | 3    | 380.0    | 460.0    | 470.0    | 174400.0 |
+| Mackerel  | 2    | 460.0    | 145.0    | 150.0    | 67000.0  |
+| Anchovy   | 2    | 580.0    | 92.5     | 95.0     | 54700.0  |
+| Sardine   | 3    | 840.0    | 61.67    | 70.0     | 49300.0  |
+| Pomfret   | 1    | 60.0     | 520.0    | 520.0    | 31200.0  |
+| Crab      | 1    | 70.0     | 380.0    | 380.0    | 26600.0  |
++-----------+------+----------+----------+----------+----------+
+   9 row(s)
+
+--- REPORTS ---
+1.Daily revenue  2.Species-wise totals  3.Top 5 boats
+4.Buyer spending (HAVING)  5.Revenue between dates
+6.Export species report to CSV  0.Back
+Choice: 3
++------------+---------+-------+--------+---------------+
+| Boat       | Type    | Trips | Kg     | Earnings (Rs) |
++------------+---------+-------+--------+---------------+
+| Sea Star   | Trawler | 2     | 2170.0 | 477600.0      |
+| Holy Cross | Trawler | 1     | 1350.0 | 292500.0      |
+| Our Lady   | Trawler | 1     | 870.0  | 190600.0      |
+| St Antony  | Fibre   | 2     | 420.0  | 166400.0      |
+| Velankanni | Fibre   | 1     | 200.0  | 115200.0      |
++------------+---------+-------+--------+---------------+
+   5 row(s)
+  >> TOP BOAT: Sea Star
+
+--- REPORTS ---
+1.Daily revenue  2.Species-wise totals  3.Top 5 boats
+4.Buyer spending (HAVING)  5.Revenue between dates
+6.Export species report to CSV  0.Back
+Choice: 4
+Show buyers who spent more than Rs: 50000
++-------------------------+------------+------+------------+
+| Buyer                   | Type       | Lots | Spent (Rs) |
++-------------------------+------------+------+------------+
+| Kanyakumari Sea Exports | Exporter   | 4    | 442400.0   |
+| Cape Seafoods           | Exporter   | 3    | 315500.0   |
+| Kerala Marine Foods     | Exporter   | 3    | 313200.0   |
+| Selvi                   | Vendor     | 3    | 152000.0   |
+| Mary Fish Traders       | Wholesaler | 3    | 85800.0    |
+| Raja Dry Fish           | Wholesaler | 2    | 69500.0    |
+| Ocean Fresh Agency      | Wholesaler | 2    | 60000.0    |
++-------------------------+------------+------+------------+
+   7 row(s)
+
+--- REPORTS ---
+1.Daily revenue  2.Species-wise totals  3.Top 5 boats
+4.Buyer spending (HAVING)  5.Revenue between dates
+6.Export species report to CSV  0.Back
+Choice: 5
+From date (YYYY-MM-DD, Enter = today): 2026-10-20
+To date   (YYYY-MM-DD, Enter = today): 2026-10-26
++------------+-------+--------+--------------+
+| Date       | Trips | Kg     | Revenue (Rs) |
++------------+-------+--------+--------------+
+| 2026-10-20 | 3     | 2020.0 | 463900.0     |
+| 2026-10-21 | 3     | 1630.0 | 414900.0     |
+| 2026-10-22 | 3     | 460.0  | 97000.0      |
+| 2026-10-23 | 2     | 1270.0 | 212600.0     |
+| 2026-10-24 | 2     | 920.0  | 201100.0     |
+| 2026-10-25 | 1     | 120.0  | 55200.0      |
++------------+-------+--------+--------------+
+   6 row(s)
+
+--- REPORTS ---
+1.Daily revenue  2.Species-wise totals  3.Top 5 boats
+4.Buyer spending (HAVING)  5.Revenue between dates
+6.Export species report to CSV  0.Back
+Choice: 6
++-----------+------+----------+----------+----------+----------+
+| Species   | Lots | Total Kg | Avg Rate | Max Rate | Revenue  |
++-----------+------+----------+----------+----------+----------+
+| Tuna      | 3    | 2800.0   | 205.0    | 210.0    | 573000.0 |
+| Squid     | 3    | 870.0    | 283.33   | 290.0    | 246100.0 |
+| Seer Fish | 3    | 360.0    | 620.0    | 640.0    | 222400.0 |
+| Prawn     | 3    | 380.0    | 460.0    | 470.0    | 174400.0 |
+| Mackerel  | 2    | 460.0    | 145.0    | 150.0    | 67000.0  |
+| Anchovy   | 2    | 580.0    | 92.5     | 95.0     | 54700.0  |
+| Sardine   | 3    | 840.0    | 61.67    | 70.0     | 49300.0  |
+| Pomfret   | 1    | 60.0     | 520.0    | 520.0    | 31200.0  |
+| Crab      | 1    | 70.0     | 380.0    | 380.0    | 26600.0  |
++-----------+------+----------+----------+----------+----------+
+   9 row(s)
+  Report saved to species_report.csv
+  First 3 lines of the file:
+    ['Species', 'Lots', 'Total_Kg', 'Avg_Rate', 'Max_Rate', 'Revenue']
+    ['Tuna', '3', '2800.0', '205.0', '210.0', '573000.0']
+    ['Squid', '3', '870.0', '283.33', '290.0', '246100.0']
+
+--- REPORTS ---
+1.Daily revenue  2.Species-wise totals  3.Top 5 boats
+4.Buyer spending (HAVING)  5.Revenue between dates
+6.Export species report to CSV  0.Back
+Choice: 0
+
+========= MAIN MENU =========
+1. Boats & Fishermen
+2. Trips & Sea Safety
+3. Catch & Auction
+4. Buyers
+5. Reports
+0. Exit
+Enter choice: 0
+
+Connection closed. Nanri! (Thank you)
