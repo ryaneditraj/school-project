@@ -2,7 +2,7 @@
 --  KADAL KANAKKU : Fish Catch, Auction & Sea-Safety Manager
 --  Manavalakurichi Fish Landing Centre
 --  CBSE Class XII Computer Science (083) Project 2026-27
---  Ryan Editraj, XII A
+--  Ryan, XII A
 -- ============================================================
 DROP DATABASE IF EXISTS kadal_kanakku;
 CREATE DATABASE kadal_kanakku;

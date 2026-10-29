@@ -4,7 +4,7 @@
 #  for the Manavalakurichi Fish Landing Centre
 #
 #  CBSE Class XII Computer Science (083) Project, 2026-27
-#  Student : Ryan Editraj, XII A, Roll No. 14
+#  Student : Ryan, XII A, Roll No. 14
 #  School  : St Joseph's School (CBSE), Manavalakurichi
 #
 #  Front end : Python 3 (menu driven console program)

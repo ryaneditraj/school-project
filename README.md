@@ -1,5 +1,5 @@
 # KADAL KANAKKU – Fish Catch, Auction & Sea-Safety Manager
-CBSE Class XII Computer Science (083) Project 2026-27 – Ryan Editraj, XII A
+CBSE Class XII Computer Science (083) Project 2026-27 – Ryan, XII A
 
 ## Files
 - `kadal_kanakku.py` – main Python program (menu driven)

@@ -1,4 +1,4 @@
-# Viva Q&A – Kadal Kanakku (Ryan Editraj, XII A, Roll 14)
+# Viva Q&A – Kadal Kanakku (Ryan, XII A, Roll 14)
 
 1. **What is your project?** A menu-driven Python + MySQL program for the Manavalakurichi fish landing centre. It records boats, fishermen, sea trips (with a weather safety check), catches, auctions to buyers, and prints revenue reports.
 2. **Why this topic?** Manavalakurichi is a fishing village; auctions are recorded on paper, and nobody can quickly tell who is still at sea. It is a real local problem, not a generic library/bank project.
